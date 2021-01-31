@@ -1,0 +1,85 @@
+{
+    "bg": "https://cdn.wallpapersafari.com/47/53/l4k51g.jpg",
+    "title": "Quiz Marvel",
+    "description": "Um quiz rápido sobre os vingadores nas HQs",
+    "questions": [
+      {
+        "image": "https://conteudo.imguol.com.br/c/entretenimento/ee/2019/07/26/dinastia-m-1564169838984_v2_1920x1080.png",
+        "title": "O que aconteceu ao final das HQs: ``Dinastia M´´ e ``Dizimação´´?",
+        "description": "Dica: confie na clareza.",
+        "answer": 1,
+        "alternatives": [
+          "Tudo volta ao normal",
+          "Os mutantes são dizimados",
+          "Magneto mata Mercúrio",
+          "Todas as realizadas se juntam em uma só",
+          "Feiticeira Escarlate morre"
+        ]
+      },
+      {
+        "image": "https://logosmarcas.net/wp-content/uploads/2020/05/The-Avengers-Logo-2012.jpg",
+        "title": "Qual é a Formação inicial dos Vingadores?",
+        "description": "Dica: estamos falando das HQs.",
+        "answer": 1,
+        "alternatives": [
+          "Wolverine, Capitão América, Homem de Ferro, Hulk e Senhor Fantástico",
+          "Homem-Formiga, Vespa, Homem de Ferro, Thor e Hulk",
+          "Homem-Formiga, Vespa, Doutor Estranho, Namor, Feiticeira Escarlate e Thor (Jane Foster)",
+          "Capitão América, Viúva Negra, Feiticeira Escarlate, Falcão, Máquina de Combate e Visão",
+          "Capitão América, Homem de Ferro, Hulk, Thor, Viúva Negra e Gavião Arqueiro"
+        ]
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Professor_Charles_%27X%27_Xavier.png/250px-Professor_Charles_%27X%27_Xavier.png",
+        "title": "Quem é o irmão do Professor X?",
+        "description": "Dica: lembra dos desenhos?",
+        "answer": 4,
+        "alternatives": [
+          "Ciclope",
+          "Wolverine",
+          "Fera",
+          "Magneto",
+          "Fanático"
+        ]
+      },
+      {
+        "image": "https://cdn.ome.lt/gTNCDjytQZXY-JjootDR-z_N5Z4=/1200x630/smart/extras/conteudos/capitaojoiadaalma.jpg",
+        "title": "Quem substitui Steve Rogers como Capitão América, após sua morte?",
+        "description": "Dica: estamos falando das HQs.",
+        "answer": 0,
+        "alternatives": [
+          "Bucky Barnes",
+          "Anthony Stark",
+          "Sam Wilson",
+          "Clint Barton"
+        ]
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUdUftbhcbt82akOhBb2jlGYSY-rmMWK6LQ&usqp=CAU",
+        "title": "Quem são os líderes de cada lado na HQ: ``Guerra Civil 2´´?",
+        "description": "Dica: estamos falando das HQs.",
+        "answer": 2,
+        "alternatives": [
+          "Homem de Ferro e Caitão América",
+          "Falcão e Soldado Invernal",
+          "Homem de Ferro e Capitã Marvel",
+          "Thor e Capitã Marvel"
+        ]
+      }
+    ],
+    "external": [
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#330e62",
+        "secondary": "#990008",
+        "mainBg": "#213f4e",
+        "contrastText": "#FFFFFF",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }
