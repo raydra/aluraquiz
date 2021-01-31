@@ -20,10 +20,10 @@
         "image": "https://logosmarcas.net/wp-content/uploads/2020/05/The-Avengers-Logo-2012.jpg",
         "title": "Qual é a Formação inicial dos Vingadores?",
         "description": "Dica: estamos falando das HQs.",
-        "answer": 1,
+        "answer": 0,
         "alternatives": [
-          "Wolverine, Capitão América, Homem de Ferro, Hulk e Senhor Fantástico",
           "Homem-Formiga, Vespa, Homem de Ferro, Thor e Hulk",
+          "Wolverine, Capitão América, Homem de Ferro, Hulk e Senhor Fantástico",
           "Homem-Formiga, Vespa, Doutor Estranho, Namor, Feiticeira Escarlate e Thor (Jane Foster)",
           "Capitão América, Viúva Negra, Feiticeira Escarlate, Falcão, Máquina de Combate e Visão",
           "Capitão América, Homem de Ferro, Hulk, Thor, Viúva Negra e Gavião Arqueiro"
@@ -60,7 +60,7 @@
         "description": "Dica: estamos falando das HQs.",
         "answer": 2,
         "alternatives": [
-          "Homem de Ferro e Caitão América",
+          "Homem de Ferro e Capitão América",
           "Falcão e Soldado Invernal",
           "Homem de Ferro e Capitã Marvel",
           "Thor e Capitã Marvel"

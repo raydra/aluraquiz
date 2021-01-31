@@ -11,13 +11,19 @@ import db from '../../db.json';
 
 export default function HeroDatails() {
   const router = useRouter();
-  const [name, setName] = React.useState('');
+  const [game, setGame] = React.useState('');
 
   function handleQuiz(infosDoEvento) {
     infosDoEvento.preventDefault();
 
-    const [projectName, githubUser] = name.split('/');
-    router.push(`/quiz/${projectName}___${githubUser}`);
+    const [projectName, githubUser] = game.split('/');
+    if (githubUser === undefined) {
+      // eslint-disable-next-line no-alert
+      alert('Nome do quiz incompleto!');
+      setGame('');
+    } else {
+      router.push(`/quiz/${projectName}___${githubUser}`);
+    }
   }
   return (
     <QuizBackground backgroundImage={db.bg}>
@@ -42,12 +48,12 @@ export default function HeroDatails() {
             <form onSubmit={handleQuiz}>
               <Input
                 name="nomeDoQuiz"
-                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                onChange={(infosDoEvento) => setGame(infosDoEvento.target.value)}
                 placeholder="aluraquiz/raydra"
-                value={name}
+                value={game}
               />
-              <Button type="submit" disabled={name.length === 0}>
-                {`Jogar ${name}`}
+              <Button type="submit" disabled={game.length === 0}>
+                Jogar
               </Button>
             </form>
           </Widget.Content>

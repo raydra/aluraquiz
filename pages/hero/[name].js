@@ -42,7 +42,7 @@ export default function HeroDatails({ marvelResponse }) {
               Não encontrado!
             </Widget.Header>
             <Widget.Content>
-              <p>Por favor verifique a ortografia do nome do heroi em INGLÊS e tente novamente.</p>
+              <p>Por favor verifique se o nome do personagem está em INGLÊS e tente novamente.</p>
             </Widget.Content>
           </Widget>
         </HeroContainer>

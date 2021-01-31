@@ -2,9 +2,28 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+import Widget from '../../src/components/Widget';
 import QuizScreen from '../../src/screens/Quiz';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
+import QuizContainer from '../../src/components/QuizContainer';
+import QuizBackground from '../../src/components/QuizBackground';
+import db from '../../db.json';
 
 export default function QuizDaGaleraPage({ dbExterno }) {
+  if (dbExterno === 'erro') {
+    return (
+      <QuizBackground backgroundImage={db.bg}>
+        <QuizContainer>
+          <Widget>
+            <Widget.Header>
+              <BackLinkArrow href="/" />
+              Quiz inválido, volte para a tela principal!
+            </Widget.Header>
+          </Widget>
+        </QuizContainer>
+      </QuizBackground>
+    );
+  }
   return (
     <ThemeProvider theme={dbExterno.theme}>
       <QuizScreen
@@ -33,6 +52,10 @@ export async function getServerSideProps(context) {
       },
     };
   } catch (err) {
-    throw new Error(err);
+    return {
+      props: {
+        dbExterno: 'erro',
+      },
+    };
   }
 }

@@ -95,8 +95,8 @@ export default function Home() {
                 );
               })}
             </ul>
-            <a
-              href="{hqUrl}"
+            <Link
+              href="quiz/quiz_da_galera"
               style={{
                 textDecoration: 'none',
                 color: 'white',
@@ -105,7 +105,7 @@ export default function Home() {
               }}
             >
               Pesquise um quiz específico...
-            </a>
+            </Link>
           </Widget.Content>
         </Widget>
         <Widget

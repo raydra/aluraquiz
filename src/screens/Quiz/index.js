@@ -15,6 +15,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         Tela de Resultado:
       </Widget.Header>
 
@@ -122,7 +123,7 @@ function QuestionWidget({
             return (
               <Widget.Topic
                 as="label"
-                key={alternativeId}
+                key={`key_+${alternative}+${alternativeId}`}
                 htmlFor={alternativeId}
                 data-selected={isSelected}
                 data-status={isQuestionSubmited && alternativeStatus}
