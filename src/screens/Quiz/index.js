@@ -35,6 +35,7 @@ function ResultWidget({ results }) {
               {index + 1}
               {' '}
               Resultado:
+              {' '}
               {result === true
                 ? 'Acertou'
                 : 'Errou'}
